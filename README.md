@@ -42,9 +42,16 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## SaaS/Hosted Platforms
 
+While low-level parsing libraries typically run in-process, several cloud-hosted SaaS platforms provide hosted JSON validation, schema contract management, data transformation, and API mocking services:
 
-
-- **No dedicated SaaS platforms exist for JSON parsing.** These libraries run in-process—their purpose is to transform data within your application, not to provide a hosted service. Cloud APIs that accept or return JSON use these open-source libraries internally; they are not JSON parsing services themselves.
+| Platform | Description | Pricing (Starting Tier) | Free Tier Limits | Company Size (Valuation / Revenue) |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Postman](https://www.postman.com/)** | Cloud-connected API workspace with built-in JSON schema validation, mock servers, and payload inspection. | $9/user/month (Solo plan, billed annually) or $19/user/month (Team plan) | Free forever for single user; includes 50 AI credits/mo, unlimited collection runs, mock server calls, and local executions (team collaboration restricted to paid plans). | $5.6B Valuation (Series D) / ~$313M ARR |
+| **[Stoplight](https://stoplight.io/)** (SmartBear) | Cloud-first API contract design, JSON schema modeling, and Prism-powered mock servers. | $39/month (Starter tier covering up to 3 seats; additional users ~$8–$11/user/month) | Free forever Community plan: 1 cloud project and up to 3 workspace members (unlimited local desktop editor usage). | Parent SmartBear: ~$1.8B Valuation / ~$250M Revenue (Stoplight acquired in 2023; was ~$26M funding / ~$10M ARR) |
+| **[Zuplo](https://zuplo.com/)** | Developer-focused API gateway offering JSON schema validation at the edge, request transformations, and rate limiting. | $25/month (Builder plan) | Free forever: Up to 100,000 requests/month, 2 developer seats, and 1 day of analytics/logs (no credit card required). | $13.5M Total Venture Funding (Seed) / Private early-stage ARR |
+| **[WireMock Cloud](https://www.wiremock.io/)** | Cloud-hosted API simulation service supporting dynamic JSON response templating, payload validation, and chaos testing. | Enterprise / custom quote (Contact Sales for paid multi-user plans) | Free forever: 1,000 mock API calls/month, single user, 10 req/s rate limit, and up to 3 data sources. | $7.0M Venture Funding (Seed led by Ridge Ventures) / Private ARR |
+| **[Beeceptor](https://beeceptor.com/)** | Zero-setup cloud mock server and webhook inspector with JSON schema matching, rules, and payload transformation. | $10/month (Individual plan; Team tier at $25/month) | Free forever: Unclaimed public endpoints expiring after 30 days (extended to 90 days if claimed), 1 MB payload size limit, ad-hoc HTTP debugging. | Bootstrapped / ~$45k–$50k Estimated ARR (~$4k MRR) |
+| **[MockAPI](https://mockapi.io/)** | Hosted REST API and JSON mocking utility with built-in Faker.js generation and CRUD simulation. | $5/month (or $35/year for upgraded multi-project plan) | Free forever: Up to 1 project, 2 resources (endpoints) per project, basic CRUD support. | Bootstrapped / Micro-SaaS Private ARR |
 
 
 
