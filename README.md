@@ -8,7 +8,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-suuare&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-JSON-Parsers-Utilities/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-JSON-Parsers-Utilities?style=for-the-badge&logo=github&color=gold" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-JSON-Parsers-Utilities/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-JSON-Parsers-Utilities?style=for-the-badge&logo=github&color=gold" alt="GitHub_Stars"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-JSON-Parsers-Utilities/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-JSON-Parsers-Utilities?style=for-the-badge&logo=github&color=blue" alt="GitHub Forks"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-JSON-Parsers-Utilities/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-JSON-Parsers-Utilities?style=for-the-badge&color=red" alt="GitHub Issues"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-JSON-Parsers-Utilities/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-JSON-Parsers-Utilities?style=for-the-badge&color=green" alt="License"/></a>
@@ -59,61 +59,61 @@ While low-level parsing libraries run in-process within your application binarie
 
 ## 💻 Open-Source GitHub Projects 🚀
 
-The open-source ecosystem provides high-throughput, memory-efficient, and language-native JSON parsers. Below are the top open-source projects, equipped with live GitHub star badges and **sorted in descending order by star count**.
+The open-source ecosystem provides high-throughput, memory-efficient, and language-native JSON parsers. Below are the top open-source projects, equipped with live GitHub Stars_Badges and **sorted in descending order by Stars_Count**.
 
 ### ⚡ Top Open-Source JSON Libraries (Ranked by Stars) ⭐
 
-1. **[nlohmann/json](https://github.com/nlohmann/json)** [![GitHub stars](https://img.shields.io/github/stars/nlohmann/json?style=social&color=white)](https://github.com/nlohmann/json/stargazers)  
+1. **[nlohmann/json](https://github.com/nlohmann/json)** [![GitHub_Stars](https://img.shields.io/github/stars/nlohmann/json?style=social&color=white)](https://github.com/nlohmann/json/stargazers)  
    **The ergonomic C++ standard.** The most widely adopted C++ modern JSON library with an intuitive STL-like interface. Supports seamless serialization macros (`NLOHMANN_DEFINE_TYPE_NON_INTRUSIVE`) and clean default fallback handling. Best for rapid modern C++ development and general-purpose backend services.
 
-2. **[fastjson](https://github.com/alibaba/fastjson)** [![GitHub stars](https://img.shields.io/github/stars/alibaba/fastjson?style=social&color=white)](https://github.com/alibaba/fastjson/stargazers)  
+2. **[fastjson](https://github.com/alibaba/fastjson)** [![GitHub_Stars](https://img.shields.io/github/stars/alibaba/fastjson?style=social&color=white)](https://github.com/alibaba/fastjson/stargazers)  
    **Alibaba's high-speed Java JSON processor.** Built for high throughput and low memory footprint in large Java application clusters.  
    > ⚠️ **Security Advisory**: Historical versions suffered from remote code execution vulnerabilities; ensure you run updated versions with `SafeMode` strictly enabled, or consider Jackson as a secure enterprise alternative.
 
-3. **[simdjson](https://github.com/simdjson/simdjson)** [![GitHub stars](https://img.shields.io/github/stars/simdjson/simdjson?style=social&color=white)](https://github.com/simdjson/simdjson/stargazers)  
+3. **[simdjson](https://github.com/simdjson/simdjson)** [![GitHub_Stars](https://img.shields.io/github/stars/simdjson/simdjson?style=social&color=white)](https://github.com/simdjson/simdjson/stargazers)  
    **The SIMD-accelerated throughput champion.** Parses JSON at gigabytes-per-second speeds (~4 GB/s) using SIMD CPU vector instructions (AVX2, AVX-512, ARM NEON). Offers on-demand DOM-free parsing for analytics pipelines and bulk stream ingestion.
 
-4. **[Gson](https://github.com/google/gson)** [![GitHub stars](https://img.shields.io/github/stars/google/gson?style=social&color=white)](https://github.com/google/gson/stargazers)  
+4. **[Gson](https://github.com/google/gson)** [![GitHub_Stars](https://img.shields.io/github/stars/google/gson?style=social&color=white)](https://github.com/google/gson/stargazers)  
    **Google's canonical Java JSON library.** Converts arbitrary Java objects into JSON representations without requiring source annotations. Highly ergonomic for Android and lightweight Java apps.  
    > ℹ️ **Status Note**: Currently in maintenance mode; recommended for stable, minimal-dependency Java applications.
 
-5. **[gjson](https://github.com/tidwall/gjson)** [![GitHub stars](https://img.shields.io/github/stars/tidwall/gjson?style=social&color=white)](https://github.com/tidwall/gjson/stargazers)  
+5. **[gjson](https://github.com/tidwall/gjson)** [![GitHub_Stars](https://img.shields.io/github/stars/tidwall/gjson?style=social&color=white)](https://github.com/tidwall/gjson/stargazers)  
    **Fastest one-line JSON value extractor for Go.** Provides blazing-fast JSON querying via expressive path syntax (e.g. `name.last`, `children.#`) without unpacking or unmarshaling documents into structs.
 
-6. **[RapidJSON](https://github.com/Tencent/rapidjson)** [![GitHub stars](https://img.shields.io/github/stars/Tencent/rapidjson?style=social&color=white)](https://github.com/Tencent/rapidjson/stargazers)  
+6. **[RapidJSON](https://github.com/Tencent/rapidjson)** [![GitHub_Stars](https://img.shields.io/github/stars/Tencent/rapidjson?style=social&color=white)](https://github.com/Tencent/rapidjson/stargazers)  
    **Tencent's header-only fast C++ JSON parser.** Offers both SAX and DOM style APIs, SSE2/SSE4.2 vector optimizations, and zero external dependencies. Ideal for game engines and embedded systems requiring C++98/C++11 compatibility.
 
-7. **[json-iterator/go](https://github.com/json-iterator/go)** [![GitHub stars](https://img.shields.io/github/stars/json-iterator/go?style=social&color=white)](https://github.com/json-iterator/go/stargazers)  
+7. **[json-iterator/go](https://github.com/json-iterator/go)** [![GitHub_Stars](https://img.shields.io/github/stars/json-iterator/go?style=social&color=white)](https://github.com/json-iterator/go/stargazers)  
    **High-performance drop-in replacement for standard library `encoding/json` in Go.** 100% compatible API with up to 6x speedup and significantly fewer memory allocations.
 
-8. **[cJSON](https://github.com/DaveGamble/cJSON)** [![GitHub stars](https://img.shields.io/github/stars/DaveGamble/cJSON?style=social&color=white)](https://github.com/DaveGamble/cJSON/stargazers)  
+8. **[cJSON](https://github.com/DaveGamble/cJSON)** [![GitHub_Stars](https://img.shields.io/github/stars/DaveGamble/cJSON?style=social&color=white)](https://github.com/DaveGamble/cJSON/stargazers)  
    **The ultra-lightweight ANSI C parser.** Implemented as a single C file and single header file with zero dependencies. The undisputed industry standard for microcontrollers, embedded IoT firmware, and robotics.
 
-9. **[Jackson](https://github.com/FasterXML/jackson)** [![GitHub stars](https://img.shields.io/github/stars/FasterXML/jackson?style=social&color=white)](https://github.com/FasterXML/jackson/stargazers)  
+9. **[Jackson](https://github.com/FasterXML/jackson)** [![GitHub_Stars](https://img.shields.io/github/stars/FasterXML/jackson?style=social&color=white)](https://github.com/FasterXML/jackson/stargazers)  
    **The standard Java enterprise data processor.** The default serialization engine for Spring Boot and cloud frameworks. Features a three-tier model: high-speed Streaming API, Tree Model (DOM), and full POJO Data Binding.
 
-10. **[sonic](https://github.com/bytedance/sonic)** [![GitHub stars](https://img.shields.io/github/stars/bytedance/sonic?style=social&color=white)](https://github.com/bytedance/sonic/stargazers)  
+10. **[sonic](https://github.com/bytedance/sonic)** [![GitHub_Stars](https://img.shields.io/github/stars/bytedance/sonic?style=social&color=white)](https://github.com/bytedance/sonic/stargazers)  
     **ByteDance's JIT & AVX-accelerated Go JSON parser.** Employs runtime just-in-time compilation and SIMD instructions to achieve the fastest end-to-end encoding/decoding throughput in large-scale Go microservices.
 
-11. **[orjson](https://github.com/ijl/orjson)** [![GitHub stars](https://img.shields.io/github/stars/ijl/orjson?style=social&color=white)](https://github.com/ijl/orjson/stargazers)  
+11. **[orjson](https://github.com/ijl/orjson)** [![GitHub_Stars](https://img.shields.io/github/stars/ijl/orjson?style=social&color=white)](https://github.com/ijl/orjson/stargazers)  
     **The fastest Python library for JSON.** Written in Rust with native CPython bindings. Serializes dataclasses, datetimes, numpy arrays, and UUIDs natively at speeds far surpassing Python's built-in `json` and `ujson`.
 
-12. **[Serde JSON](https://github.com/serde-rs/json)** [![GitHub stars](https://img.shields.io/github/stars/serde-rs/json?style=social&color=white)](https://github.com/serde-rs/json/stargazers)  
+12. **[Serde JSON](https://github.com/serde-rs/json)** [![GitHub_Stars](https://img.shields.io/github/stars/serde-rs/json?style=social&color=white)](https://github.com/serde-rs/json/stargazers)  
     **The idiomatic Rust serialization benchmark.** Powered by Rust traits (`#[derive(Serialize, Deserialize)]`) to perform compile-time zero-copy serialization and deserialization without runtime reflection overhead.
 
-13. **[yyjson](https://github.com/ibireme/yyjson)** [![GitHub stars](https://img.shields.io/github/stars/ibireme/yyjson?style=social&color=white)](https://github.com/ibireme/yyjson/stargazers)  
+13. **[yyjson](https://github.com/ibireme/yyjson)** [![GitHub_Stars](https://img.shields.io/github/stars/ibireme/yyjson?style=social&color=white)](https://github.com/ibireme/yyjson/stargazers)  
     **The fastest ANSI C JSON library.** Passes 100% of JSON compliance suites with 0 false positives or negatives. Provides gigabyte-per-second parsing with portable C99 and zero third-party dependencies.
 
-14. **[Oj](https://github.com/ohler55/oj)** [![GitHub stars](https://img.shields.io/github/stars/ohler55/oj?style=social&color=white)](https://github.com/ohler55/oj/stargazers)  
+14. **[Oj](https://github.com/ohler55/oj)** [![GitHub_Stars](https://img.shields.io/github/stars/ohler55/oj?style=social&color=white)](https://github.com/ohler55/oj/stargazers)  
     **Optimized JSON for Ruby.** Written as an optimized C extension with multiple compatibility modes (Strict, Object, Rails/ActiveSupport). The performance cornerstone for high-traffic Ruby on Rails APIs.
 
-15. **[glaze](https://github.com/stephenberry/glaze)** [![GitHub stars](https://img.shields.io/github/stars/stephenberry/glaze?style=social&color=white)](https://github.com/stephenberry/glaze/stargazers)  
+15. **[glaze](https://github.com/stephenberry/glaze)** [![GitHub_Stars](https://img.shields.io/github/stars/stephenberry/glaze?style=social&color=white)](https://github.com/stephenberry/glaze/stargazers)  
     **Modern C++20 reflection-based JSON and binary serializer.** Rivals raw SIMD parse speeds (~2 GB/s) with extreme memory efficiency and zero boilerplate type mapping.
 
-16. **[valyala/fastjson](https://github.com/valyala/fastjson)** [![GitHub stars](https://img.shields.io/github/stars/valyala/fastjson?style=social&color=white)](https://github.com/valyala/fastjson/stargazers)  
+16. **[valyala/fastjson](https://github.com/valyala/fastjson)** [![GitHub_Stars](https://img.shields.io/github/stars/valyala/fastjson?style=social&color=white)](https://github.com/valyala/fastjson/stargazers)  
     **Zero-allocation JSON parser for Go.** Engineered for high-load web servers and proxies that parse millions of concurrent JSON payloads without incurring garbage collector pauses.
 
-17. **[ijson](https://github.com/ICRAR/ijson)** [![GitHub stars](https://img.shields.io/github/stars/ICRAR/ijson?style=social&color=white)](https://github.com/ICRAR/ijson/stargazers)  
+17. **[ijson](https://github.com/ICRAR/ijson)** [![GitHub_Stars](https://img.shields.io/github/stars/ICRAR/ijson?style=social&color=white)](https://github.com/ICRAR/ijson/stargazers)  
     **Iterative streaming JSON parser for Python.** SAX-style streaming interface that extracts fields from multi-gigabyte files with tiny, constant memory consumption.
 
 ---
